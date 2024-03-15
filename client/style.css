@@ -1,0 +1,74 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-color: #59c1bd;
+}
+
+.main-container {
+  text-align: center;
+  margin: 10px auto;
+  width: 700px;
+}
+
+.input-values {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: initial;
+}
+
+.button-container {
+  display: flex;
+}
+
+button {
+  color: white;
+  border-radius: 10%;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#submit-expense {
+  background-color: forestgreen;
+}
+
+#update-expense {
+  background-color: royalblue;
+  display: none;
+}
+
+.btn-delete {
+  background-color: firebrick;
+}
+
+.btn-update {
+  background-color: darkgoldenrod;
+}
+
+table {
+  margin-top: 10px;
+  border: 1px solid black;
+  width: 100%;
+  background-color: #fff;
+}
+
+th, td {
+  width: 33%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+tr {
+  padding: 5px;
+  border-bottom: 1px solid #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+  padding: 5px 0;
+  width: 250px;
+  margin-bottom: 1em;
+}

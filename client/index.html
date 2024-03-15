@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ExpenseIT Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="main-container">
+            <div class="input-field">
+                <h1>ExpenseIT</h1>
+                <p> Add A New Item: </p>
+                <div class="input-values">
+                    <label for="Order-Description">Order Description: </label>
+                    <input id="Order-Description" class="control-form" type="text" name="Order-Description"
+                        placeholder="What did you Order?" />
+                    <label for="Item-Price">Total Cost: </label>
+                    <input id="Item-Price" class="control-form" type="number" name="Price"
+                        placeholder="How much did you pay?" />
+                    <label for="purchaseDate"> Purchase Date: </label>
+                    <input id="purchaseDate" class="control-form" type="date" name="date"
+                        placeholder="Enter purchase date" />
+                    <label for="customer-details">Customer Name: </label>
+                    <input id="customer-details" class="control-form" type="text" name="customer-detail"
+                        placeholder="Who purchased?" />
+                </div>
+
+
+                <div class="button-container">
+                    <button id="submit-expense" type="submit">Add Expense</button>
+                    <button id="update-expense" type="submit">Update Expense</button>
+
+                </div>
+            </div>
+            <hr>
+            <div class="table container">
+                <table class="expense-data-table" id="expense-table">
+                    <thread>
+                        <tr>
+                            <th scope="col"> Order Description</th>
+                            <th scope="col"> Price </th>
+                            <th scope="col"> Purchase Date</th>
+                            <th scope="col"> Customer Name</th>
+                            <th scope="col">Actions</th>
+                        </tr>
+                    </thread>
+                    <tbody id="expense-table-body"></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
