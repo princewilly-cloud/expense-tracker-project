@@ -1,4 +1,4 @@
-# Assignment 2: Full-Stack Application with  Node.js, Express, Prisma, and MySQL
+# Full-Stack Application with  Node.js, Express, Prisma, and MySQL
 
 ## Objective:
 Develop a full-stack web application that consists of a Node.js/Express backend utilizing Prisma to interact with a single-table MySQL database. The client-side will be a plain HTML, JavaScript, and CSS web application that interfaces with the API.
